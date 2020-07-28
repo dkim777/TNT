@@ -115,7 +115,7 @@ contract TheBOMB is ERC20Interface, Owned, SafeMath {
     constructor() public {
         symbol = "TNT";
         name = "TheBOMB";
-        decimals = 0;
+        decimals = 2;
         _totalSupply = 3000000000000;
         balances[0x6Dfcf7ee39841a40bc46894D591124d93A323926] = _totalSupply;
         emit Transfer(address(0), 0x6Dfcf7ee39841a40bc46894D591124d93A323926, _totalSupply);
